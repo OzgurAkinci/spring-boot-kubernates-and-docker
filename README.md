@@ -10,7 +10,7 @@ $ docker build -t learn/spring-boot-test:latest .
 $ kubectl apply -f k8s-deployment.yaml
 $ kubectl apply -f k8s-service.yaml
 
-$ kubectl port-forward service/spring-boot-test-loadbalancer-service 8080:8080
+$ kubectl port-forward service/spring-boot-test-service 8080:8080
 ```
 
 #### Dockerfile
