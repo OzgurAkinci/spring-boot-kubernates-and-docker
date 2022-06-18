@@ -77,17 +77,3 @@ spec:
 ```
 
 ![Screenshot](https://github.com/OzgurAkinci/spring-boot-kubernetes-and-docker/blob/main/git_resources/pods.png)?raw=true)
-
-#### other
-```
-$ kubectl get all
-$ kubectl get services
-$ kubectl get pods
-$ kubectl get deployments
-$ kubectl scale deployment spring-boot-example --replicas=3
-$ kubectl delete --all pods
-$ kubectl delete --all deployments
-$ kubectl delete --all namespaces
-$ kubectl delete daemonsets,replicasets,services,deployments,pods,rc,ingress --all --all-namespaces
-
-```
