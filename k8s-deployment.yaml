@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spring-boot-test-deployment # Name of deployment
+  labels:
+    app: spring-boot-test
+spec:
+  replicas: 2      # Number of pods
+  selector:        # Pod selector for deployment
+    matchLabels:
+      app:  spring-boot-test
+  template:
+    metadata:
+      labels:
+        app:  spring-boot-test
+    spec:
+      containers:
+        - name: spring-boot-test-container
+          imagePullPolicy: IfNotPresent
+          image: learn/spring-boot-test:latest   #image name
+          ports:
+            - containerPort: 8080
+

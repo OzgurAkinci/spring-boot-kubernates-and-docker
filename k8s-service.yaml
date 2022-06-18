@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: spring-boot-test-loadbalancer-service  # Name of service
+spec:
+  type: LoadBalancer
+  #externalIPs:
+  #  - 192.168.0.10
+  selector:
+    app: spring-boot-test
+  ports:
+    - protocol: TCP
+      port: 8080                          # Pod port
+      targetPort: 8080                    # Container port
