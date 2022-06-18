@@ -76,6 +76,6 @@ spec:
       targetPort: 8080                    # Container port
 ```
 
-![Screenshot](https://github.com/OzgurAkinci/spring-boot-kubernetes-and-docker/blob/main/git_resources/pods.png)?raw=true)
+![Screenshot](https://github.com/OzgurAkinci/spring-boot-kubernetes-and-docker/blob/main/git_resources/pods.png?raw=true)
 
-![Screenshot](https://github.com/OzgurAkinci/spring-boot-kubernetes-and-docker/blob/main/git_resources/getAll.png)?raw=true)
+![Screenshot](https://github.com/OzgurAkinci/spring-boot-kubernetes-and-docker/blob/main/git_resources/getAll.png?raw=true)
