@@ -12,7 +12,7 @@ $ kubectl apply -f k8s-service.yaml
 
 $ kubectl port-forward service/spring-boot-test-loadbalancer-service 8080:8080
 ```
-![Screenshot](https://github.com/OzgurAkinci/spring-mvc-swagger-and-mysql-integration/blob/main/home-page-ss.png?raw=true)
+![Screenshot]([https://github.com/OzgurAkinci/spring-mvc-swagger-and-mysql-integration/blob/main/home-page-ss.png](https://github.com/OzgurAkinci/spring-boot-kubernetes-and-docker/blob/main/git_resources/pods.png)?raw=true)
 
 #### other
 ```
